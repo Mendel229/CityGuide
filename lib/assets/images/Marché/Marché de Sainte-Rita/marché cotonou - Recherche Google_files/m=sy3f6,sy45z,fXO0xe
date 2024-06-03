@@ -1,0 +1,17 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.IRi=_.Nn("w3Ukrf");_.JRi=_.Nn("gXfOqb");_.KRi=_.Nn("n1Iq3");_.LRi=_.Nn("x6BCfb");_.MRi=_.Nn("BVfjhf");
+}catch(e){_._DumpException(e)}
+try{
+_.qMk=_.D("fXO0xe",[_.Kp,_.cq]);
+}catch(e){_._DumpException(e)}
+try{
+_.z("fXO0xe");
+var rMk=function(a){_.E.call(this,a.Ka);this.wa=!1;this.ka=null;this.rootElement=this.getRoot().el();this.Aa=_.Ll(this.rootElement,"g-menu-item");this.Ha=this.getData("hbc").string("");this.Ja=this.getData("htc").string("");this.Oa=this.getData("bsdm").bool(!1);this.Ra=this.getData("tsdm").bool(!1);this.Ba=this.getData("btf").bool(!1);this.oa=this.Oa||this.Ba||this.Ra;this.Sa=this.getData("spt").bool();this.Jd=a.service.location;this.Jc=a.service.navigation};_.F(rMk,_.E);
+rMk.Ga=function(){return{service:{location:_.Nu,navigation:_.lu}}};_.k=rMk.prototype;_.k.Tre=function(){var a=void 0===a?null:a;var b=document.getElementById("YUIDDb");this.Sa&&b?(_.wt(this.rootElement,{interactionContext:1}),b=new _.Fm(b.getAttribute("data-spl")),null!=a&&b.ka("cs",a),this.Jc.ka(b.toString())):(_.wt(this.rootElement),a=_.Om(new _.Fm(this.Jd.Ak()),"hl")||"",a=_.Mm((new _.Fm("/preferences")).ka("prev",this.Jd.Ak()).ka("hl",a),"appearance"),this.Jc.ka(a.toString()))};
+_.k.Ure=function(){var a=this;this.oa&&(_.y.setStyle(this.Aa,{background:this.Ha,color:this.Ja}),this.trigger(_.kGb),this.wa=!0,_.Gd(document,"click",function(){a.RDd()},{once:!0,passive:!0}))};_.k.RDd=function(){var a=this;this.oa&&(this.ka=_.Gd(document,"click",function(){a.dEd()},{once:!0,passive:!0}))};_.k.dEd=function(){this.oa&&(_.y.setStyle(this.Aa,{background:"",color:""}),this.ka&&(_.Bk(this.ka),this.ka=null))};_.k.BMf=function(){this.wa&&(this.wa=!1,this.trigger(_.MRi))};
+_.J(rMk.prototype,"aelxJb",function(){return this.BMf});_.J(rMk.prototype,"MB7MSb",function(){return this.dEd});_.J(rMk.prototype,"fbAr9c",function(){return this.RDd});_.J(rMk.prototype,"ggFCce",function(){return this.Ure});_.J(rMk.prototype,"ok5gFc",function(){return this.Tre});_.Uq(_.qMk,rMk);
+_.A();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.

@@ -1,0 +1,11 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.ffl=_.D("U0Base",[]);
+}catch(e){_._DumpException(e)}
+try{
+_.z("U0Base");
+var seE=_.Nn("bjyWQe");var teE=function(a){_.E.call(this,a.Ka);this.K7a=a.jsdata.K7a};_.F(teE,_.E);teE.Ga=function(){return{jsdata:{K7a:{Wd:_.Nkb}}}};teE.prototype.ka=function(a){var b=a.qb.find("img");b=b.isEmpty()?null:b.yb().getAttribute("src");this.trigger(seE,{K7a:this.K7a,trigger:a.qb,hla:b})};_.J(teE.prototype,"b4ghLd",function(){return this.ka});_.Uq(_.ffl,teE);
+_.A();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
